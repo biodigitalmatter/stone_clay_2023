@@ -37,6 +37,8 @@ Research, ETH Zürich](https://gramaziokohler.arch.ethz.ch/)).
 
 ## Schedule
 
+DRAFT!
+
 ### w 49
 |              | Monday (4/12)           | Tuesday (5/12)        | Wednesday (6/12)          | Thursday (7/12)   | Friday (8/12)           |
 | ------------ | ----------------------- | --------------------- | ------------------------- | ----------------- | ----------------------- |
