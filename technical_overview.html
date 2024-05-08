@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>technical_overview.html</title>
+<meta http-equiv="Content-Type" content="application/xhtml+xml;charset=utf-8"/>
+<link rel="stylesheet" type="text/css" media="all" href="https://cdn.jsdelivr.net/npm/github-markdown-css/github-markdown.min.css"  />
+<link rel="stylesheet" type="text/css" media="all" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/styles/github.min.css"  /><meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'><style> body { box-sizing: border-box; max-width: 740px; width: 100%; margin: 40px auto; padding: 0 10px; } </style><script id='MathJax-script' async src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'></script><script src='https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js'></script><script>document.addEventListener('DOMContentLoaded', () => { document.body.classList.add('markdown-body'); document.querySelectorAll('pre[lang] > code').forEach((code) => { code.classList.add(code.parentElement.lang); }); document.querySelectorAll('pre > code').forEach((code) => { hljs.highlightBlock(code); }); });</script>
+</head>
+
+<body>
+
+<h1 id="technical-overview">Technical overview</h1>
+<h2 id="design">Design</h2>
+<h2 id="fabrication">Fabrication</h2>
+<h3 id="robot-control">Robot control</h3>
+<h3 id="robot-localization">Robot localization</h3>
+<p>The robot will be localized in the workspace using a optical
+measurement machine, in this case a Nikon K300. It can track LED’s at
+high resolution in a large workspace.</p>
+<p>The camera system will be set to track LED’s in the workspace where
+it will not be disturbed, since it will define the world coordinate
+system. This is risky, since if the camera is accidently moved the
+locations of the coordinate frames would be unrecoverable.</p>
+<p>This system will to localize the robot platform after it has been
+moved. By attaching LED’s to the robot tool, and sampling 10-20
+positions of the robot arm (where the cartesian coordinates of the robot
+flange in relation to the robot base frame is recorded, as well as the
+location of the LED’s in relation to the camera system).</p>
+<p>By sampling multiple positions, recording where the</p>
+<h3 id="extruder-control">Extruder control</h3>
+<h3 id="material-system">Material system</h3>
+<h2 id="perception">Perception</h2>
+<h2 id="cameras">Cameras</h2>
+<h3 id="camera-calibration">Camera calibration</h3>
+<h3 id="camera-localization">Camera localization</h3>
+
+</body>
+</html>
